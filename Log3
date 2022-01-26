@@ -1,0 +1,22 @@
+Forgot to upload in a while! Here's What I've been doing
+- Experimenting with CSS (cascading style sheets) in HTML for 1012
+- Completed part one of lab 2 (1012) which requires the combination of an html file and a css file (student forum)
+  - At first, everything seemed fine but when I clicked submit, the information put into the textboxes did not show up on the submission page
+    - I fixed this by adding a name attribute next to the insert class: <insert type="text" name="firstName"> and everything worked perfectly!
+  - For some reason the CSS only applies to the webpage when in Google Chrome, I can't get it to work in firefox no matter how much I mess around
+    with secret settings or the web developer tools.
+  - Also, the formatting was a little off at first because I misconstrued where the name class was supposed to go. Instead of putting it next to the  
+    input class (as mentioned in line 5), I had first replaced "fieldName" with "firstName" (and subsequently all other name attributes that I was
+    instructed to do):
+    
+    <p> <span class="fieldName">First Name: </span>
+	    <input type="text" name="firstName">
+      
+  - This resulted in the textboxes not being aligned properly as "fieldName" is used in the CSS for the webpage and decides on the margins. With "fieldName"
+    not present, the textboxes auto-aligned in a staggered sort of position (all based on the length of the text)
+  - Regardless, most of my coding was done over the course of a few days with this lab project. I'm proud that I was able to work out the discrepancies and
+    make my file look the same as the example
+  - Although, still don't know why it won't work in firefox.....
+  - I haven't been able to get to it yet, but I'm also working on my own side project which is basically a personal portfolio of all of my interests and favourite things
+    - So far, I've created one page for one of my favourite movies, but I want to make a seperate CSS file to add formatting instead of it being in the html file.
+    - I also want to eventually create more pages and explore the use of hyperlinks so that I can have a cohesive website!
